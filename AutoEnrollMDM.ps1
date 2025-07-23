@@ -1,34 +1,3 @@
-# INSTRUCTIONS #
-#
-# Ensure User has an Intune license and is in the MDMUsers group
-#
-# Install PsExec on their machine
-#
-# Open an adminstrator command prompt
-#
-# Navigate to the same directory PsExec is in
-#
-# Open a PsExec instance with the command:
-#   .\PsExec.exe -i -s powershell
-#
-# A new window will open, ENSURE THAT THE FOLLOWING COMMANDS ARE TYPED IN THIS NEW WINDOW
-#
-# Enable scripts with the command:
-#   Set-ExecutionPolicy Unrestricted
-# 
-# if prompted, type the letter "a" and hit enter
-#
-# Finally, run the script:
-#   .\AutoEnrollMDM.ps1
-#
-# After a few minutes, the device should be enrolled in Intune and any relevant programs downloaded
-
-# TROUBLESHOOTING #
-#
-# If you run into any errors, logs can be found at:
-#    Event Viewer > Applications and Services Logs > Microsoft > Windows > DeviceManagement-Enterprise-Diagnostics-Provider > Admin
-
-
 # Set MDM Enrollment URLs 
 $key = 'SYSTEM\CurrentControlSet\Control\CloudDomainJoin\TenantInfo\*' 
 $keyinfo = Get-Item "HKLM:\$key" 
