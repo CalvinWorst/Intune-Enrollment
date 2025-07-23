@@ -49,6 +49,8 @@ Set-ExecutionPolicy Unrestricted
 .\AutoEnrollMDM.ps1
 ```
 
+> If prompted, type **`R`** or **`r`** and press **Enter** to confirm.
+
 ---
 
 ## ⏳ What to Expect
