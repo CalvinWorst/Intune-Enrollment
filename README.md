@@ -41,6 +41,8 @@ Set-ExecutionPolicy Unrestricted
 
 > If prompted, type **`A`** or **`a`** and press **Enter** to confirm.
 
+#### Navigate back to the directory the enrollment script is in
+
 #### Then run the enrollment script:
 
 ```powershell
