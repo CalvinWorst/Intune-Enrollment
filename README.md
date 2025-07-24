@@ -34,7 +34,7 @@ This is the solution I ended up going with. It works by running the already-exis
 ---
 
 ## 🚀 Enrollment Instructions
-If have a Remote Monitoring & Management (RMM) solution, I would reccomend pushing the script remotely instead. If not, you'll have to do the following steps on every device you want to enroll. 
+If you have a Remote Monitoring & Management (RMM) solution, I would reccomend pushing the script remotely instead. If not, you'll have to do the following steps on every device you want to enroll. 
 
 ### 1. Open an Administrator Command Prompt
 
