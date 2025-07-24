@@ -7,7 +7,7 @@ Traditionally, Intune is meant to be used when devices are onboarded. This is do
 
 From my research, I have found 3 ways to do this:
 ### 1. Disconnect and then reconnect the work or school account
-This is probably the least-intrusive option if your organization operates on BYOB and you have a local administrator account. If that is not the case, however, then you essentially have to wipe your device. This process takes hours and is probably considered a mild form of torture in a POW treatment manual somewhere. 
+This is probably the least-intrusive option if your organization operates on BYOD and you have a local administrator account. If that is not the case, however, then you essentially have to wipe your device. This process takes hours and is probably considered a mild form of torture in a POW treatment manual somewhere. 
 ### 2. Use a Windows Provisioning Package (Microsoft-recommended)
 Microsoft's official solution for this issue is to create a provisioning package. From my understanding, applying the bulk token for Azure AD in the setup will re-join the device. I've had some success with this solution but when I tried it with my boss the infamous IT curse of "it was working right before the meeting" befell me and I couldn't get it to work again after that. I think the issues I had arose from some conflicts with existing enrollments but I'm not too sure. And frankly, when it did work it just took too long. 
 ### 3. Running a powershell script that enrolls it for you
